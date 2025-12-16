@@ -1,5 +1,24 @@
 export const projects = [
   {
+    title: "CVD AI",
+    description:
+      "An AI/ML powered Cardiovascular Disease Risk Assessment Platform. A full-stack web app that predicts CVD risk from clinical data. Multiple ML models trained on trusted datasets (including the `Framingham Heart Study`) with clear performance ranking.",
+    tech: [
+      "React",
+      "TypeScript",
+      "TailwindCSS",
+      "FastAPI",
+      "Express",
+      "Node",
+      "Python",
+      "MongoDB",
+      "AI/ML",
+    ],
+    github: "https://github.com/apilacharya/cvd-ai",
+    live: "https://cvd-ai.vercel.app/",
+    image: "/project0.png",
+  },
+  {
     title: "BountiFy",
     description:
       "A modern ticketing platform built with Next.js 14, featuring server actions, authentication, and real-time notifications. Helps users discover and book events with a seamless checkout experience.",
@@ -61,5 +80,5 @@ export const skills = {
 export const socials = {
   github: "https://github.com/apilacharya",
   linkedin: "https://www.linkedin.com/in/apil-raj-acharya-13a59a205/",
-  email: "connectwithapil@gmail.com", 
+  email: "connectwithapil@gmail.com",
 };
